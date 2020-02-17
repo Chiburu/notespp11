@@ -50,3 +50,6 @@ DEPENDPATH += ../../include
 
 RESOURCES += \
   first-app.qrc
+
+# Linuxのデバッグコピー用シェルスクリプト
+DISTFILES += debug.sh
