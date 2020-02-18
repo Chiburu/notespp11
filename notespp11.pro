@@ -8,4 +8,5 @@ DISTFILES += \
 
 SUBDIRS += \
   include/notespp11 \
-  samples
+  samples \
+  tests

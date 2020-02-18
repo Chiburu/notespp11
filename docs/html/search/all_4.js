@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['run',['run',['../namespacenotespp11_1_1notes.html#ab23c6213686e4d05a073802791264a9e',1,'notespp11::notes']]]
+  ['info',['Info',['../classnotespp11_1_1notes_1_1nls_1_1_info.html',1,'notespp11::notes::nls::Info'],['../classnotespp11_1_1notes_1_1nls_1_1_info.html#ab8019900b8c2931da0683c8767bee2f7',1,'notespp11::notes::nls::Info::Info()']]],
+  ['info_2ehpp',['info.hpp',['../info_8hpp.html',1,'']]]
 ];

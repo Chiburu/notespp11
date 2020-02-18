@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['notes',['notes',['../namespacenotespp11_1_1notes.html',1,'notespp11']]],
-  ['notespp11',['notespp11',['../namespacenotespp11.html',1,'']]],
-  ['notespp11_5fexport',['NOTESPP11_EXPORT',['../notespp11__global_8h.html#a5698aa10874210cd2e2c9e90e327786a',1,'notespp11_global.h']]],
-  ['notespp11_5fglobal_2eh',['notespp11_global.h',['../notespp11__global_8h.html',1,'']]]
+  ['get',['get',['../classnotespp11_1_1notes_1_1nls_1_1_info.html#ad6562c374cff21cc8afd3887a08d5b5c',1,'notespp11::notes::nls::Info']]],
+  ['getstringbytes',['getStringBytes',['../classnotespp11_1_1notes_1_1nls_1_1_info.html#a833fc85e09bdfc4be822f5242f4dfc8f',1,'notespp11::notes::nls::Info']]],
+  ['getstringchars',['getStringChars',['../classnotespp11_1_1notes_1_1nls_1_1_info.html#a4ba201af15c72023a37bdaa9c162cffc',1,'notespp11::notes::nls::Info']]],
+  ['getstringwordbytes',['getStringWordBytes',['../classnotespp11_1_1notes_1_1nls_1_1_info.html#aa53a26229cb67df1848dda014b3b7dc3',1,'notespp11::notes::nls::Info']]],
+  ['getstringwordchars',['getStringWordChars',['../classnotespp11_1_1notes_1_1nls_1_1_info.html#a3a96f73261dbda514a5f2c572d447442',1,'notespp11::notes::nls::Info']]],
+  ['global_2ehpp',['global.hpp',['../global_8hpp.html',1,'']]]
 ];

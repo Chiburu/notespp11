@@ -21,6 +21,8 @@ SOURCES += \
 
 HEADERS += \
     notes/global.hpp \
+    notes/nls/info.hpp \
+    notes/nls/status.hpp \
     notespp11_global.h \
     version.h
 

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ver',['ver',['../classnotespp11_1_1_version.html#a733730f571926e821f91974008416562',1,'notespp11::Version']]]
+  ['haserror',['hasError',['../classnotespp11_1_1notes_1_1nls_1_1_status.html#ac2d3785b19ebc9a927a0f2f4f6f8312a',1,'notespp11::notes::nls::Status']]]
 ];

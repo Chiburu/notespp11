@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version',['Version',['../classnotespp11_1_1_version.html',1,'notespp11']]]
+  ['info',['Info',['../classnotespp11_1_1notes_1_1nls_1_1_info.html',1,'notespp11::notes::nls']]]
 ];

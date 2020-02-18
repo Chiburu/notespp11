@@ -1,11 +1,12 @@
 var indexSectionsWithContent =
 {
-  0: "gmnprsv",
-  1: "v",
+  0: "aeghilmnprsvw~",
+  1: "ilsv",
   2: "n",
-  3: "gnv",
-  4: "mprv",
-  5: "ns"
+  3: "ginsv",
+  4: "aeghilmnprsvw~",
+  5: "p",
+  6: "ns"
 };
 
 var indexSectionNames =
@@ -15,7 +16,8 @@ var indexSectionNames =
   2: "namespaces",
   3: "files",
   4: "functions",
-  5: "defines"
+  5: "variables",
+  6: "defines"
 };
 
 var indexSectionLabels =
@@ -25,6 +27,7 @@ var indexSectionLabels =
   2: "名前空間",
   3: "ファイル",
   4: "関数",
-  5: "マクロ定義"
+  5: "変数",
+  6: "マクロ定義"
 };
 

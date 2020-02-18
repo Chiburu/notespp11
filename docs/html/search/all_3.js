@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['patch',['patch',['../classnotespp11_1_1_version.html#aff4c70ad71c2ab01113181795e855711',1,'notespp11::Version']]]
+  ['haserror',['hasError',['../classnotespp11_1_1notes_1_1nls_1_1_status.html#ac2d3785b19ebc9a927a0f2f4f6f8312a',1,'notespp11::notes::nls::Status']]]
 ];
