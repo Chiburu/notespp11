@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>notespp11: notespp11/include/notespp11/notes/lmbcs.hpp ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">notespp11
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('lmbcs_8hpp_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">lmbcs.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="lmbcs_8hpp.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef NOTESPP11_NOTES_LMBCS_HPP</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define NOTESPP11_NOTES_LMBCS_HPP</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="xlate_8hpp.html">./nls/xlate.hpp</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenotespp11.html">notespp11</a> {</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>notes {</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1_lmbcs.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classnotespp11_1_1notes_1_1_lmbcs.html">Lmbcs</a></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    : <span class="keyword">public</span> QByteArray</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1_lmbcs.html#a77e1e87299f55cb0dc0c38694b561552">   19</a></span>&#160;  <a class="code" href="classnotespp11_1_1notes_1_1_lmbcs.html#a77e1e87299f55cb0dc0c38694b561552">Lmbcs</a>() : QByteArray() {}</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1_lmbcs.html#a43642a3b2bcb2fd3dc761018730c2d56">   25</a></span>&#160;  <a class="code" href="classnotespp11_1_1notes_1_1_lmbcs.html#a43642a3b2bcb2fd3dc761018730c2d56">Lmbcs</a>(<span class="keyword">const</span> <a class="code" href="classnotespp11_1_1notes_1_1_lmbcs.html">Lmbcs</a> &amp;lmbcs) : QByteArray(lmbcs) {}</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1_lmbcs.html#aeaf151e87a81239f829ca9a9ef314dc9">   31</a></span>&#160;  <a class="code" href="classnotespp11_1_1notes_1_1_lmbcs.html#aeaf151e87a81239f829ca9a9ef314dc9">Lmbcs</a>(<span class="keyword">const</span> QByteArray &amp;bytes) : QByteArray(bytes) {}</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1_lmbcs.html#a5dd229034a0998ccdc07acc13b5a388a">   36</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classnotespp11_1_1notes_1_1_lmbcs.html#a5dd229034a0998ccdc07acc13b5a388a">~Lmbcs</a>() {}</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1_lmbcs.html#a8fa42f2196445b4e313cd6c97a6f5450">   42</a></span>&#160;  QString <a class="code" href="classnotespp11_1_1notes_1_1_lmbcs.html#a8fa42f2196445b4e313cd6c97a6f5450">qs</a>() const noexcept(false)</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> nls::lmbcsToQString&lt;Lmbcs&gt;(*this);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  }</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1_lmbcs.html#ae5833015b3cd184e49d25fd8ebcba85d">   52</a></span>&#160;  <span class="keyword">static</span> <a class="code" href="classnotespp11_1_1notes_1_1_lmbcs.html">Lmbcs</a> <a class="code" href="classnotespp11_1_1notes_1_1_lmbcs.html#ae5833015b3cd184e49d25fd8ebcba85d">fromQString</a>(<span class="keyword">const</span> QString &amp;qstr) noexcept(<span class="keyword">false</span>)</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">return</span> nls::qstringToLmbcs&lt;Lmbcs&gt;(qstr);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;} <span class="comment">// namespace notes</span></div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;} <span class="comment">// namespace notespp11</span></div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif // NOTESPP11_NOTES_LMBCS_HPP</span></div><div class="ttc" id="xlate_8hpp_html"><div class="ttname"><a href="xlate_8hpp.html">xlate.hpp</a></div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1_lmbcs_html_a77e1e87299f55cb0dc0c38694b561552"><div class="ttname"><a href="classnotespp11_1_1notes_1_1_lmbcs.html#a77e1e87299f55cb0dc0c38694b561552">notespp11::notes::Lmbcs::Lmbcs</a></div><div class="ttdeci">Lmbcs()</div><div class="ttdoc">デフォルトコンストラクタです。 </div><div class="ttdef"><b>Definition:</b> lmbcs.hpp:19</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1_lmbcs_html_a43642a3b2bcb2fd3dc761018730c2d56"><div class="ttname"><a href="classnotespp11_1_1notes_1_1_lmbcs.html#a43642a3b2bcb2fd3dc761018730c2d56">notespp11::notes::Lmbcs::Lmbcs</a></div><div class="ttdeci">Lmbcs(const Lmbcs &amp;lmbcs)</div><div class="ttdoc">コピーコンストラクタです。 </div><div class="ttdef"><b>Definition:</b> lmbcs.hpp:25</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1_lmbcs_html_aeaf151e87a81239f829ca9a9ef314dc9"><div class="ttname"><a href="classnotespp11_1_1notes_1_1_lmbcs.html#aeaf151e87a81239f829ca9a9ef314dc9">notespp11::notes::Lmbcs::Lmbcs</a></div><div class="ttdeci">Lmbcs(const QByteArray &amp;bytes)</div><div class="ttdoc">コンストラクタです。 </div><div class="ttdef"><b>Definition:</b> lmbcs.hpp:31</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1_lmbcs_html_a5dd229034a0998ccdc07acc13b5a388a"><div class="ttname"><a href="classnotespp11_1_1notes_1_1_lmbcs.html#a5dd229034a0998ccdc07acc13b5a388a">notespp11::notes::Lmbcs::~Lmbcs</a></div><div class="ttdeci">virtual ~Lmbcs()</div><div class="ttdoc">デストラクタです。 </div><div class="ttdef"><b>Definition:</b> lmbcs.hpp:36</div></div>
+<div class="ttc" id="namespacenotespp11_html"><div class="ttname"><a href="namespacenotespp11.html">notespp11</a></div><div class="ttdef"><b>Definition:</b> global.hpp:16</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1_lmbcs_html_ae5833015b3cd184e49d25fd8ebcba85d"><div class="ttname"><a href="classnotespp11_1_1notes_1_1_lmbcs.html#ae5833015b3cd184e49d25fd8ebcba85d">notespp11::notes::Lmbcs::fromQString</a></div><div class="ttdeci">static Lmbcs fromQString(const QString &amp;qstr) noexcept(false)</div><div class="ttdoc">QStringからLmbcsに変換して返します。 </div><div class="ttdef"><b>Definition:</b> lmbcs.hpp:52</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1_lmbcs_html_a8fa42f2196445b4e313cd6c97a6f5450"><div class="ttname"><a href="classnotespp11_1_1notes_1_1_lmbcs.html#a8fa42f2196445b4e313cd6c97a6f5450">notespp11::notes::Lmbcs::qs</a></div><div class="ttdeci">QString qs() const noexcept(false)</div><div class="ttdoc">QStringに変換して返します。 </div><div class="ttdef"><b>Definition:</b> lmbcs.hpp:42</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1_lmbcs_html"><div class="ttname"><a href="classnotespp11_1_1notes_1_1_lmbcs.html">notespp11::notes::Lmbcs</a></div><div class="ttdoc">LMBCS文字列クラスです。 </div><div class="ttdef"><b>Definition:</b> lmbcs.hpp:12</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3530a3e5501c9a727a693c4bcacfe096.html">notespp11</a></li><li class="navelem"><a class="el" href="dir_a3178aceea65c9e230301a9ffa5d3fc3.html">include</a></li><li class="navelem"><a class="el" href="dir_4d96c78dc5aeb9d6f50f28e17fc1b673.html">notespp11</a></li><li class="navelem"><a class="el" href="dir_3802b73d057252fd2b98d92eb9eac692.html">notes</a></li><li class="navelem"><a class="el" href="lmbcs_8hpp.html">lmbcs.hpp</a></li>
+    <li class="footer">構築:
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

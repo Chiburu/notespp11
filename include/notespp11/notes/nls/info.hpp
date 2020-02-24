@@ -50,7 +50,7 @@ public:
    * @return バイト数(ワードサイズ)
    * @throw Status NLS_STATUSを内包したクラス
    */
-  WORD getStringWordBytes(const char *s, WORD chars) noexcept(false)
+  WORD getStringWordBytes(const char *s, WORD chars) const noexcept(false)
   {
     // 文字数が0なら0を返す。
     if (chars < 1) return 0;
@@ -76,7 +76,7 @@ public:
    * @return 文字数(ワードサイズ)
    * @throw Status NLS_STATUSを内包したクラス
    */
-  WORD getStringWordChars(const char *s, WORD bytes) noexcept(false)
+  WORD getStringWordChars(const char *s, WORD bytes) const noexcept(false)
   {
     // バイト数が0なら0を返す。
     if (bytes < 1) return 0;
@@ -114,7 +114,7 @@ public:
    * @throw Status NLS_STATUSを内包したクラス
    */
   template <typename T = int>
-  T getStringChars(const char *s, T bytes) noexcept(false)
+  T getStringChars(const char *s, T bytes) const noexcept(false)
   {
     // 文字数が0なら0を返す。
     if (bytes < 1) return 0;
@@ -149,7 +149,7 @@ public:
    * @throw Status NLS_STATUSを内包したクラス
    */
   template <typename T = int>
-  T getStringBytes(const char *s, T chars) noexcept(false)
+  T getStringBytes(const char *s, T chars) const noexcept(false)
   {
     // 文字数が0なら0を返す。
     if (chars < 1) return 0;
@@ -180,7 +180,7 @@ public:
    * @throw Status NLS_STATUSを内包したクラス
    */
   template <typename T = int>
-  T adjustedByteSize(const char *s, T bytes) noexcept(false)
+  T adjustedByteSize(const char *s, T bytes) const noexcept(false)
   {
     auto chars = getStringChars<T>(s, bytes);
     return getStringBytes<T>(s, chars);

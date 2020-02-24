@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>notespp11: notespp11/include/notespp11/notes/nls/status.hpp ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">notespp11
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('status_8hpp_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">status.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="status_8hpp.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef NOTESPP11_NOTES_NLS_STATUS_HPP</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define NOTESPP11_NOTES_NLS_STATUS_HPP</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;exception&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifdef NT</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma pack(push, 1)</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;global.h&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;nls.h&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#ifdef NT</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#pragma pack(pop)</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenotespp11.html">notespp11</a> {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span>notes {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span>nls {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1nls_1_1_status.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classnotespp11_1_1notes_1_1nls_1_1_status.html">Status</a></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    : <span class="keyword">public</span> std::exception</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  NLS_STATUS status_; <span class="comment">//&lt;&lt;&lt; NLSステータス値</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#a86a9103bbe4a05f5292b0013da98ddff">   33</a></span>&#160;  <a class="code" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#a86a9103bbe4a05f5292b0013da98ddff">Status</a>() noexcept : std::exception(), status_(NLS_SUCCESS) {}</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#abfb027d00f0cd3c56f6b3d858c71862b">   39</a></span>&#160;  <a class="code" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#abfb027d00f0cd3c56f6b3d858c71862b">Status</a>(NLS_STATUS status) noexcept : std::exception(), status_(status) {}</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#a9ccf7aa4f29914bc55436aaaa8ee9826">   45</a></span>&#160;  NLS_STATUS <a class="code" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#a9ccf7aa4f29914bc55436aaaa8ee9826">error</a>() const noexcept { <span class="keywordflow">return</span> status_; }</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#aa7cc549228f9074a9c2ed29218b5d9ff">   51</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#aa7cc549228f9074a9c2ed29218b5d9ff">noError</a>() const noexcept { <span class="keywordflow">return</span> <a class="code" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#a9ccf7aa4f29914bc55436aaaa8ee9826">error</a>() == NLS_SUCCESS; }</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#ac2d3785b19ebc9a927a0f2f4f6f8312a">   57</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#ac2d3785b19ebc9a927a0f2f4f6f8312a">hasError</a>() const noexcept { <span class="keywordflow">return</span> !<a class="code" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#aa7cc549228f9074a9c2ed29218b5d9ff">noError</a>(); }</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#a56233ad254312316a25ce8c0bd00036f">   63</a></span>&#160;  <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="classnotespp11_1_1notes_1_1nls_1_1_status.html#a56233ad254312316a25ce8c0bd00036f">what</a>() const noexcept<span class="keyword"> override</span></div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">  </span>{</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">switch</span> (status_) {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">case</span> NLS_SUCCESS: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Success.&quot;</span>;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">case</span> NLS_BADPARM: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Bad Parameters.&quot;</span>;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">case</span> NLS_BUFFERTOOSMALL: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Buffer too small.&quot;</span>;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">case</span> NLS_CHARSSTRIPPED: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Chars stripped.&quot;</span>;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">case</span> NLS_ENDOFSTRING: <span class="keywordflow">return</span> <span class="stringliteral">&quot;End of string.&quot;</span>;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">case</span> NLS_FALLBACKUSED: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Fallback used.&quot;</span>;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">case</span> NLS_FILEINVALID: <span class="keywordflow">return</span> <span class="stringliteral">&quot;File invalid.&quot;</span>;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">case</span> NLS_FILENOTFOUND: <span class="keywordflow">return</span> <span class="stringliteral">&quot;File not found.&quot;</span>;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">case</span> NLS_FINDFAILED: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Find failed.&quot;</span>;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">case</span> NLS_INVALIDCHARACTER: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Invalid character.&quot;</span>;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">case</span> NLS_INVALIDDATA: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Invalid data.&quot;</span>;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">case</span> NLS_INVALIDENTRY: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Invalid entry.&quot;</span>;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">case</span> NLS_INVALIDTABLE: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Invalid table.&quot;</span>;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">case</span> NLS_PROPNOTFOUND: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Prop not found.&quot;</span>;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">case</span> NLS_STARTOFSTRING: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Start of string.&quot;</span>;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">case</span> NLS_STRINGSIZECHANGED: <span class="keywordflow">return</span> <span class="stringliteral">&quot;String size changed.&quot;</span>;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">case</span> NLS_TABLEHEADERINVALID: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Table header invalid.&quot;</span>;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">case</span> NLS_TABLENOTFOUND: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Table not found.&quot;</span>;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">default</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;Unknown NLS status.&quot;</span>;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  }</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;};</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;} <span class="comment">// namespace nls</span></div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;} <span class="comment">// namespace notes</span></div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;} <span class="comment">// namespace notespp11</span></div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#endif // NOTESPP11_NOTES_NLS_STATUS_HPP</span></div><div class="ttc" id="classnotespp11_1_1notes_1_1nls_1_1_status_html_a86a9103bbe4a05f5292b0013da98ddff"><div class="ttname"><a href="classnotespp11_1_1notes_1_1nls_1_1_status.html#a86a9103bbe4a05f5292b0013da98ddff">notespp11::notes::nls::Status::Status</a></div><div class="ttdeci">Status() noexcept</div><div class="ttdoc">デフォルトコンストラクタ。 </div><div class="ttdef"><b>Definition:</b> status.hpp:33</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1nls_1_1_status_html"><div class="ttname"><a href="classnotespp11_1_1notes_1_1nls_1_1_status.html">notespp11::notes::nls::Status</a></div><div class="ttdoc">NLS用ステータスクラス </div><div class="ttdef"><b>Definition:</b> status.hpp:24</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1nls_1_1_status_html_ac2d3785b19ebc9a927a0f2f4f6f8312a"><div class="ttname"><a href="classnotespp11_1_1notes_1_1nls_1_1_status.html#ac2d3785b19ebc9a927a0f2f4f6f8312a">notespp11::notes::nls::Status::hasError</a></div><div class="ttdeci">bool hasError() const noexcept</div><div class="ttdoc">エラーがあれば真を返す。 </div><div class="ttdef"><b>Definition:</b> status.hpp:57</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1nls_1_1_status_html_a9ccf7aa4f29914bc55436aaaa8ee9826"><div class="ttname"><a href="classnotespp11_1_1notes_1_1nls_1_1_status.html#a9ccf7aa4f29914bc55436aaaa8ee9826">notespp11::notes::nls::Status::error</a></div><div class="ttdeci">NLS_STATUS error() const noexcept</div><div class="ttdoc">エラー値を返す。 </div><div class="ttdef"><b>Definition:</b> status.hpp:45</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1nls_1_1_status_html_a56233ad254312316a25ce8c0bd00036f"><div class="ttname"><a href="classnotespp11_1_1notes_1_1nls_1_1_status.html#a56233ad254312316a25ce8c0bd00036f">notespp11::notes::nls::Status::what</a></div><div class="ttdeci">virtual const char * what() const noexcept override</div><div class="ttdoc">エラーメッセージを返す。 </div><div class="ttdef"><b>Definition:</b> status.hpp:63</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1nls_1_1_status_html_aa7cc549228f9074a9c2ed29218b5d9ff"><div class="ttname"><a href="classnotespp11_1_1notes_1_1nls_1_1_status.html#aa7cc549228f9074a9c2ed29218b5d9ff">notespp11::notes::nls::Status::noError</a></div><div class="ttdeci">bool noError() const noexcept</div><div class="ttdoc">エラーがなければ真を返す。 </div><div class="ttdef"><b>Definition:</b> status.hpp:51</div></div>
+<div class="ttc" id="namespacenotespp11_html"><div class="ttname"><a href="namespacenotespp11.html">notespp11</a></div><div class="ttdef"><b>Definition:</b> global.hpp:16</div></div>
+<div class="ttc" id="classnotespp11_1_1notes_1_1nls_1_1_status_html_abfb027d00f0cd3c56f6b3d858c71862b"><div class="ttname"><a href="classnotespp11_1_1notes_1_1nls_1_1_status.html#abfb027d00f0cd3c56f6b3d858c71862b">notespp11::notes::nls::Status::Status</a></div><div class="ttdeci">Status(NLS_STATUS status) noexcept</div><div class="ttdoc">コンストラクタ。 </div><div class="ttdef"><b>Definition:</b> status.hpp:39</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3530a3e5501c9a727a693c4bcacfe096.html">notespp11</a></li><li class="navelem"><a class="el" href="dir_a3178aceea65c9e230301a9ffa5d3fc3.html">include</a></li><li class="navelem"><a class="el" href="dir_4d96c78dc5aeb9d6f50f28e17fc1b673.html">notespp11</a></li><li class="navelem"><a class="el" href="dir_3802b73d057252fd2b98d92eb9eac692.html">notes</a></li><li class="navelem"><a class="el" href="dir_372519c859fd57941130236063671a2e.html">nls</a></li><li class="navelem"><a class="el" href="status_8hpp.html">status.hpp</a></li>
+    <li class="footer">構築:
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

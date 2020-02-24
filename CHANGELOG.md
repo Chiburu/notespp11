@@ -1,6 +1,19 @@
 Notes++11
 =========
 
+# v0.0.3
+
+* 2020-02-24
+* notespp11::notes::Lmbcsクラス追加
+* notespp11::notes::nls::Infoのメンバ関数にconst指定追加
+* notespp11::notes::nls::KBtoB関数追加
+* notespp11::notes::nls::translate関数追加
+* notespp11::notes::nls::unicodeToLmbcs関数追加
+* notespp11::notes::nls::lmbcsToUnicode関数追加
+* notespp11::notes::nls::qstringToLmbcs関数追加
+* notespp11::notes::nls::lmbcsToQString関数追加
+* tests/nlsにて追加した関数のテストを追加
+
 # v0.0.2
 
 * 2020-02-18

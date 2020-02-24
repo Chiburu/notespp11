@@ -21,8 +21,10 @@ SOURCES += \
 
 HEADERS += \
     notes/global.hpp \
+    notes/lmbcs.hpp \
     notes/nls/info.hpp \
     notes/nls/status.hpp \
+    notes/nls/xlate.hpp \
     notespp11_global.h \
     version.h
 

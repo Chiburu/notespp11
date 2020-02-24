@@ -23,6 +23,12 @@ void NlsTest::test_countString1()
     QVERIFY((length - 3) == lmbcsInfo.getStringWordBytes(target.constData(), chars - 1));
     QVERIFY((length - 6) == lmbcsInfo.getStringWordBytes(target.constData(), chars - 2));
     QVERIFY((length - 9) == lmbcsInfo.getStringWordBytes(target.constData(), chars - 3));
+    QVERIFY((length - 10) == lmbcsInfo.getStringWordBytes(target.constData(), chars - 4));
+    QVERIFY((length - 11) == lmbcsInfo.getStringWordBytes(target.constData(), chars - 5));
+    QVERIFY((length - 12) == lmbcsInfo.getStringWordBytes(target.constData(), chars - 6));
+    QVERIFY((length - 15) == lmbcsInfo.getStringWordBytes(target.constData(), chars - 7));
+    QVERIFY((length - 18) == lmbcsInfo.getStringWordBytes(target.constData(), chars - 8));
+    QVERIFY((length - 21) == lmbcsInfo.getStringWordBytes(target.constData(), chars - 9));
     QVERIFY((chars - 1) == lmbcsInfo.getStringWordChars(target.constData(), length - 1));
     QVERIFY((chars - 1) == lmbcsInfo.getStringWordChars(target.constData(), length - 2));
     QVERIFY((chars - 1) == lmbcsInfo.getStringWordChars(target.constData(), length - 3));

@@ -30,6 +30,8 @@ private slots:
 
   void test_countString1();
   void test_countString2();
+  void test_lmbcsToUnicode();
+  void test_unicodeToLmbcs();
 };
 
 #endif // NLSTEST_H

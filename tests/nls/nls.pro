@@ -9,7 +9,9 @@ TEMPLATE = app
 SOURCES +=  \
   nlstest.cpp \
   test_countString1.cpp \
-  test_countString2.cpp
+  test_countString2.cpp \
+  test_lmbcsToUnicode.cpp \
+  test_unicodeToLmbcs.cpp
 
 HEADERS += \
   nlstest.h
